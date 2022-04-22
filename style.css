@@ -457,7 +457,7 @@ p {
 
     .home__left {
         width: 90%;
-        margin-top: 120px;
+        margin-top: 90px;
         
        }
 
@@ -466,9 +466,10 @@ p {
         height: 450px;
         background: url('imgs/shapes.svg') right/cover no-repeat fixed;
         background-size: 500px;
-        background-position: right -20% bottom 75%;   
+        background-position: right -20% bottom 70%;   
 
         }
+
     .project {
         margin: 10px 10px 0px 10px;
     }  
@@ -526,7 +527,7 @@ color: var(--color-pink);
 transition: all var(--animation-duration) ease-in;
 }
 
-/* For below 380px Screen width */
+/* For below 400px Screen width */
 @media screen and (max-width: 400px) {
     :root {
         /*Font Size*/
@@ -541,14 +542,14 @@ transition: all var(--animation-duration) ease-in;
     padding: 30px;
     height: 450px;
     background: url('imgs/shapes.svg') right/cover no-repeat fixed;
-    background-size: 100px;
-    background-position: right -50% bottom 35%;
+    background-size: 350px;
+    background-position: right -150% bottom 38%;
     
    }
 
    .home__left {
     width: 90%;
-    margin-top: 80px;
+    margin-top: 90px;
     
    }
    
@@ -580,6 +581,9 @@ transition: all var(--animation-duration) ease-in;
        
     }
 
+    #about {
+        padding: 30px;
+    }
 
  
 }
