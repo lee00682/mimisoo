@@ -476,6 +476,9 @@ p {
 
    /* About */
 
+   .about__right {
+       padding: 0;
+   }
    .about__left {
        text-align: center;
    }
@@ -486,7 +489,7 @@ p {
  }
 
    .about__contents {
-    margin: auto;
+    
     width: 100%;
     display: flex;
     justify-content: center;
