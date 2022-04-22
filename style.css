@@ -59,7 +59,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--color-black);
+    color: var(--color-grey);
 }
  ul {
      list-style: none;
@@ -413,8 +413,10 @@ p {
         background-size: 500px;
         background-position: right -20% bottom 75%;   
 
-}
-
+        }
+    .project {
+        margin: 10px 10px 0px 10px;
+    }  
 
 /*Contact*/
 #contact {
@@ -438,7 +440,7 @@ p {
 }
 .contact__links i:hover {
 transform: scale(1.1);
-color: var(--color-yellow);
+color: var(--color-pink);
 transition: all var(--animation-duration) ease-in;
 }
 
