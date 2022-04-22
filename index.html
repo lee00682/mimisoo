@@ -7,23 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mimi soo</title>
     <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css">
-   
-                
     <script src="https://kit.fontawesome.com/a8801bacfb.js" crossorigin="anonymous"></script>
+    <meta name="description " content="Portfilo for Mimi Soo">
+    <meta name="author" content="Mimi section__container">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav id="navbar">
-        
+    <nav id="navbar"> 
         <div class="logo">Mimi soo</div>
         <ul class="navbar__menu">
-            <li class="navbar__menu__item"><a href="#" class="">Projects</a></li>
-            <li class="navbar__menu__item">About</li>
-            <li class="navbar__menu__item">Contact</li>
+            <li class="navbar__menu__item" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#projects">Projects</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
         </ul>
+
+    <!--Toggle button -->
+    <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+
     </nav>
+
+
+   
+
+
     <!-- Home -->
     <section id="home">
         <div class="home__container">
@@ -43,18 +56,60 @@
         </div>
     </section>
     <!-- Projects -->
-    <section id="projects">
+    <section id="projects" class="section">
         <h2><span class="thick__underine">Projects</span></h2>
+        <!--
         <div class="project__categories">
             <button class="category__btn">All</button>
             <button class="category__btn">Front-end</button>
             <button class="category__btn">UI Design</button>
         </div>
+        -->
         <div class="work__projects">
-            <a href="" class="project">pro01</a>
-            <a href="" class="project">pro02</a>
-            <a href="" class="project">pro03</a>
-            <a href="" class="project">pro04</a>
+            <a href="" class="project" target="blank" data-type="UI">
+                <img
+                  src="imgs/thum-AC.png"
+                  alt="Algonquin College"
+                  class="project__img"
+                />
+                <div class="project__description">
+                  <h3>Algonquin College</h3>
+                  <span>Graphic Design & Illustration</span>
+                </div>
+              </a>
+              <a href="" class="project" target="blank" data-type="UI">
+                <img
+                  src="imgs/thum-okcs.jpg"
+                  alt="Ottawa Korean School"
+                  class="project__img"
+                />
+                <div class="project__description">
+                  <h3>Ottawa Korean School</h3>
+                  <span>Web Desigsn & Support Graphic Design</span>
+                </div>
+              </a>
+              <a href="" class="project" target="blank" data-type="UI">
+                <img
+                  src="imgs/Thum-sandwiches.png"
+                  alt="Sandwiches App"
+                  class="project__img"
+                />
+                <div class="project__description">
+                  <h3>Sandwichies App Design</h3>
+                  <span>UI/UX Design</span>
+                </div>
+              </a>
+              <a href="" class="project" target="blank" data-type="UI">
+                <img
+                  src="imgs/Thum-Bakery.png"
+                  alt="Bakery Schedule App"
+                  class="project__img"
+                />
+                <div class="project__description">
+                  <h3>Bakery Timetable App</h3>
+                  <span>UI/UX Design</span>
+                </div>
+              </a>
         </div>
     </section>
     <!-- About -->
