@@ -341,13 +341,51 @@ p {
 
 
 
-
+/* About */
 
 
  #about{
      background-color: var(--color-beige);
      padding: 50px;
  }
+
+
+ .about__contents {
+     margin: auto;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+
+ }
+ .about__left {
+     
+ }
+
+ .about__right {
+     padding: 0 20px;
+ }
+
+ .about__img {
+    margin-right: 20px;
+    width: 250px;
+    height: 270px;
+ }
+
+ .about__info {
+     padding: 20px 0;
+     max-width: 500px;
+ }
+
+ .about__skills {
+    padding: 20px 0px;
+    max-width: 500px;
+ }
+
+
+
+
+
+
  #contact {
      background-color: var(--color-light-green);
      padding: 50px;
@@ -417,6 +455,30 @@ p {
     .project {
         margin: 10px 10px 0px 10px;
     }  
+
+
+   /* About */
+
+   .about__left {
+       text-align: center;
+   }
+
+   .about__img {
+    width: 250px;
+    height: 270px;
+ }
+
+   .about__contents {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
 
 /*Contact*/
 #contact {
@@ -498,7 +560,8 @@ transition: all var(--animation-duration) ease-in;
        
     }
 
-   
+
+ 
 }
 
 
