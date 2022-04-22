@@ -188,8 +188,8 @@ p {
 
 
 .thick__underline {
-    box-shadow:  inset 0 -19px 0 var(--color-light-pink);
-    line-height: 20px;
+    box-shadow:  inset 0 -15px 0 var(--color-light-pink);
+    line-height: 15px;
 }
 
 .mthick__underline {
@@ -200,6 +200,7 @@ p {
 
 .shape::before {
     position: absolute;
+    position: fixed;
     right: -50px;
     width: 500px;
     background: url('imgs/favicon.png') left/cover no-repeat;
