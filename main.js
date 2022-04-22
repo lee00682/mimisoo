@@ -77,10 +77,7 @@ workBtnContainer.addEventListener('click', (e) => {
       return;
    }
 
-//Remove selection from the previous item and select the new one
-   const active = document.querySelector('.category__btn.selected');
-   active.classList.remove('selected');
-   e.target.classList.add('selected');
+
 
 
 
