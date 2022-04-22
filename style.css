@@ -197,12 +197,23 @@ p {
     line-height: 15px;
 }
 
+
+.shape::before {
+    position: absolute;
+    right: -50px;
+    width: 500px;
+    background: url('imgs/favicon.png') left/cover no-repeat;
+}
+
+
 .shape {
     position: absolute;
     right: -50px;
     width: 500px;
     background: url('imgs/favicon.png') left/cover no-repeat;
 }
+
+
 
 /* Home */
 
