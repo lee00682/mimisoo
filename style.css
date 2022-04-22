@@ -413,13 +413,13 @@ p {
 
 /*Contact*/
 #contact {
-    background-color: var(--color-beige);
+    
     
 }
 .contact__title,
 .contact__email,
 .contact__rights {
-    color: var(--color-white);
+    color: var(--color-light-grey);
 }
 
 .contact__title {
