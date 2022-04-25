@@ -231,7 +231,7 @@ p {
 
 .home__container {
     margin: auto;
-    max-width: 1280px;
+    max-width: 1200px;
     padding: 50px 50px 50px 80px;
     height: 500px;
     /*
@@ -250,14 +250,14 @@ p {
 .home__right {
     position: absolute;
     width: 70%;
-    right: 10%;
+    right: 0%;
     top: 100px;
     opacity: .9;
 
 }
 
 .home__left h1 {
-    
+    padding-left: 20px;
     
 }
 
@@ -574,6 +574,28 @@ p {
     }
 
 }
+
+    /* For below 600px Screen width */
+@media screen and (max-width: 600px) {
+    
+    .home__left {
+        
+        padding-left: 0px;
+
+    }
+    
+    .home__right {
+        position: absolute;
+        width: 400px;
+        right:-20%;
+        top: 110px;
+        opacity: .8;
+    }
+
+}
+
+
+
 
     /* For below 400px Screen width */
     @media screen and (max-width: 400px) {
