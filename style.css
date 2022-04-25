@@ -57,7 +57,7 @@ body {
     background-color: var(--color-beige);
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Clash Display', sans-serif;
-    src: url('http://fonts.cdnfonts.com/css/clash-display?styles=106286');
+    src: url('http://fonts.cdnfonts.com/css/clash-display?styles=106286') format('woff');
 
 }
 
