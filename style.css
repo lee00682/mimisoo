@@ -537,7 +537,7 @@ p {
     }
 
     .home__left {
-        width: 90%;
+        width: 100%;
         margin-top: 90px;
 
     }
@@ -551,8 +551,8 @@ p {
 
     .home__right {
         position: absolute;
-        width: 80%;
-        right:-5%;
+        width: 70%;
+        right: 0%;
         top: 100px;
         opacity: .9;
 
@@ -630,6 +630,7 @@ p {
         transition: all var(--animation-duration) ease-in;
     }
 
+
 }
 
     /* For below 600px Screen width */
@@ -643,9 +644,9 @@ p {
     
     .home__right {
         position: absolute;
-        width: 400px;
-        right:-20%;
-        top: 110px;
+        width: 200px;
+        right: 0px;
+        top: 70px;
         opacity: .8;
     }
 
@@ -675,15 +676,19 @@ p {
         .home__left {
             width: 90%;
             margin-top: 90px;
-
         }
+
+        .home__left h1 {
+            padding-left: 10px;
+        }
+
 
 
         .home__right {
             position: absolute;
-            width: 93%;
-            right:-20%;
-            top: 110px;
+            width: 180px;
+            right: 0px;
+            top: 50px;
             opacity: .8;
         }
 
